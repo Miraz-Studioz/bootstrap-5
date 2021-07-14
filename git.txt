@@ -1,0 +1,20 @@
+git config --global user.name Miraz
+git config --global user.email "mirazulislam35353@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "initial commit"
+git status
+git remote add origin git@github.com:Miraz-Studioz/bootstrap-5.git
+git push origin master
+ssh-keygen -t ed25519 -C "mirazulislam35353@gmail.com"
+cat  /c/Users/User/.ssh/id_ed25519.pub
+git push origin master
+
+
+
+FOR UPDATE
+git status
+gir add .
+git commit -m "added"
+git push origin master
